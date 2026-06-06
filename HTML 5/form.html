@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html FORMS</title>
+    <!-- add internal css -->
+    <style>
+        h1{
+            color: blue;
+        }
+        body{
+            text-align: center;
+        }
+        table{
+            margin: auto;
+        }
+    </style>
+    <!-- add external css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
     <header>
-        <p>Model 1</p>
+        <!-- add inline css -->
+        <p style="color: red;">Model 1</p>
         <h1>Registration form</h1>
     </header>
-
-    <main>
+    <div class="forms" id="form">
+        <main>
             <form action="">
                 <label for="name">Name:</label>
                 <input type="text" id="name" placeholder="Enter your name">
@@ -42,8 +56,8 @@
                 <br>
                 <button type="button">Submit</button>
             </form>
-
-    <p>Model 2</p>
+        
+    <h2>Model 2</h2>
             <form>
                 <table>
                     <tr>
@@ -92,6 +106,6 @@
                 </table>
             </form>
         </main>
-    </center>
+    </div>
 </body>
 </html>
