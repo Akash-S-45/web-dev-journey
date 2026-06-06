@@ -1,0 +1,30 @@
+/* external css */
+/* styling... */
+/* selectors */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.forms{
+    background-color: blue;
+}
+
+#form{
+    color: crimson;
+}
+
+h2, p{
+    color: darkgreen;
+}
+
+div label{
+    color:mediumspringgreen;
+}
