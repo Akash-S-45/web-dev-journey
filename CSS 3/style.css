@@ -70,3 +70,29 @@ div label{
     line-height: 60px;
     border: 2px solid blue;
 }
+
+.position{
+    color: red;
+    background-color: yellow;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.parent{
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    top: 40px;
+    right: 10px; 
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+    text-decoration: underline;
+    flex-direction: row;
+    justify-content: flex-end;
+}
