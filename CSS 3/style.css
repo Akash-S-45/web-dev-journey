@@ -96,3 +96,9 @@ div label{
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
