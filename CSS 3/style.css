@@ -60,8 +60,8 @@ div label{
 
 .box{
     background-color: olive;
-    display: inline;
-    width: 90px;
+    display: inline-block;
+    width: 290px;
     height: 60px;
     margin: auto;
     margin-top: 10px;
@@ -101,4 +101,16 @@ div label{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+}
+
+@media (max-width:768px) {
+    .box{
+        background-color: red;
+        padding: 30px;
+    }
+}
+
+button:hover{
+    background-color: red;
+    transition: 0.4s;
 }
